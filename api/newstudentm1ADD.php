@@ -18,7 +18,7 @@
     VALUES(:prename, :m1_name, :surname, :sex, :pic, :id_number, :birthday, :religion, :nationality, :origin,
     :father_name, :father_id, :father_job, :father_tel)";
     
-    $stmt = $conn->prepare($sql);
+    $stmt = $conn->prepare($sql); 
 
     $stmt->bindValue(':prename', htmlspecialchars_decode(strip_tags($data->prename)), PDO::PARAM_STR);
     $stmt->bindValue(':m1_name', htmlspecialchars_decode(strip_tags($data->m1_name)), PDO::PARAM_STR);

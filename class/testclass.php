@@ -22,7 +22,7 @@
 
             $stmt->bindParam(":name", $this->name);
             $stmt->bindParam(":surname", $this->surname);
-
+ 
             $stmt->execute();
         //     if($stmt->execute()){
         //         return true;

@@ -4,7 +4,7 @@
     header("Access-Control-Allow-Methods: GET");
     header("Access-Control-Allow-Credentials: true");
     header("Content-Type: application/json; charset=UTF-8");
-
+ 
     require '../config/connect.php';
     $db_connection = new Database();
     $conn = $db_connection->getConnection();

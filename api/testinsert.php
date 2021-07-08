@@ -9,7 +9,7 @@
     include_once '../class/testclass.php';
 
     $database = new Database();
-    $db = $database->getConnection();
+    $db = $database->getConnection(); 
 
     $item = new Test($db);
 

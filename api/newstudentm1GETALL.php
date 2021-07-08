@@ -5,7 +5,7 @@
     include_once '../config/connect.php';
     include_once '../class/newstudentm1class.php';
 
-    $database = new Database();
+    $database = new Database(); 
     $db = $database->getConnection();
 
     $items = new Newstudentm1($db);

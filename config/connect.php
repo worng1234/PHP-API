@@ -2,7 +2,7 @@
     class Database{
         private $server = "localhost";
         private $username = "root";
-        private $password = "";
+        private $password = ""; 
         private $dbname = "pwksdb";
 
         public $conn;

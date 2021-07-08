@@ -6,7 +6,7 @@
       header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
      
       include_once '../config/connect.php';
-      include_once '../class/newstudentm1class.php';
+      include_once '../class/newstudentm1class.php'; 
 
       $database = new Database();
       $db = $database->getConnection();

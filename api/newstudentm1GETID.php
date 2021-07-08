@@ -39,7 +39,7 @@
         'parent' => $item->parent,
         'parent_name' => $item->parent_name,
         'parent_id' => $item->parent_id,
-        'parent_job' => $item->parent_job,
+        'parent_job' => $item->parent_job, 
         'parent_tel' => $item->parent_tel,
         'house_number' => $item->house_number,
         'bloc' => $item->bloc,
