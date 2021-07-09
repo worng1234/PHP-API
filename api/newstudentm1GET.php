@@ -36,7 +36,20 @@
                 'id' => $row['id'],
                 'prename' => $row['prename'],
                 'm1_name' => $row['m1_name'],
-                'surname' => $row['surname']
+                'surname' => $row['surname'],
+                'sex' => $row['sex'],
+                'pic' => $row['pic'],
+                'id_number' => $row['id_number'],
+                'birthday' => $row['birthday'],
+                'religion' => $row['religion'],
+                'nationality' => $row['nationality'],
+                'origin' => $row['origin'],
+                'm1_disabled' => $row['m1_disabled'],
+                'poor_person' => $row['poor_person'],
+                'etc' => $row['etc'],
+                'tel' => $row['tel'],
+                'email' => $row['email'],
+                'name_cen' => $row['name_cen']
             ];
             array_push($posts_array, $post_data);
         }
